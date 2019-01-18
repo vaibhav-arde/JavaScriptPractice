@@ -28,3 +28,14 @@ nestedArray.push(["Sheetal", "TCS"]);
 console.log(nestedArray);
 nestedArray[2].push("XYZ");
 console.log(nestedArray);
+
+//remove last elemnet of an array using .pop()
+var arrayManipulation = [["Vaibhav", 32], ["Chandu", 31], ["Prasad", 30, "rough"], ["XYZ", "rough", 33]];
+console.log(arrayManipulation);
+var arrayPop = arrayManipulation[2].pop();
+console.log(arrayManipulation);
+console.log(arrayPop);
+arrayPop = arrayManipulation.pop();
+console.log(arrayManipulation);
+console.log(arrayPop);
+
