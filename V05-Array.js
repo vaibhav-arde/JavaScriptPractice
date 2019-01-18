@@ -13,5 +13,7 @@ console.log(valueByIndices);
 var nestedByIndices = nestedArray[0];
 console.log(nestedByIndices);
 console.log(nestedByIndices[0]);
-// var nestedByIndices = nestedArray[0];
-// console.log(nestedByIndices);
+
+//Modify array values
+nestedArray[2]="updated Prasad";
+console.log(nestedArray);
