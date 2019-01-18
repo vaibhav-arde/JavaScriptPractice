@@ -17,3 +17,7 @@ console.log(nestedByIndices[0]);
 //Modify array values
 nestedArray[2]="updated Prasad";
 console.log(nestedArray);
+
+//Get vale form Multidimentional array
+var companyChandu= nestedArray[1][1];
+console.log(companyChandu);
