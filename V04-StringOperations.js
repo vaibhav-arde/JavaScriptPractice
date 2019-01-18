@@ -4,7 +4,7 @@ console.log(myName.length);
 
 console.log(myName[0]); //V
 myName[0] ='B';// Strings are Immutable
-console.log(myName[0]);
+console.log(myName[0]); //V is expected not B
 
 //Secondlast letter of myName
 console.log(myName[myName.length-2]);
