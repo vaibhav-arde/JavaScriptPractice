@@ -41,7 +41,7 @@ console.log(arrayPop);
 
 //remove first elemnet of an array using .shift()
 console.log("remove first elemnet of an array using .shift()");
-var popManipulation = [["rough", "XYZ",  33],["Vaibhav", 32], ["Chandu", 31], ["rough", "Prasad", 30]];
+var popManipulation = [["rough", "XYZ",  33],["VaibhaV", 32], ["Chandu", 31], ["rough", "Prasad", 30]];
 console.log(popManipulation);
 var arrayPush = popManipulation[2].shift(123);
 console.log(popManipulation);
@@ -49,3 +49,12 @@ console.log(arrayPush);
 arrayPush = popManipulation.shift();
 console.log(popManipulation);
 console.log(arrayPush)
+
+//add first element in array using .unshift()
+console.log("remove first elemnet of an array using .shift()");
+var unshiftManipulation = [["VaibhaV", 32], ["Chandu", 31], ["Prasad", 30]];
+console.log(unshiftManipulation);
+unshiftManipulation[1].unshift("EcoTech", ".net");
+console.log(unshiftManipulation);
+unshiftManipulation.unshift(["Company", "Technology", "name", "Age"]);
+console.log(unshiftManipulation);
