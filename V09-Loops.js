@@ -38,3 +38,16 @@ do{
 }while (i < 5)
 console.log(`Array using DOWHILE loop : ${doWhilearr}`);
 
+let fruits =['Apple', 'Banana', 'Carrot']
+
+console.log(`========= Example of For in =========`)
+let x;
+for (x in fruits){
+    console.log(`At index ${x} fruit is ${fruits[x]}`)
+}
+
+console.log(`========= Example of For of =========`)
+let y;
+for(y of fruits){
+    console.log(`fruit is ${y}`)
+}
