@@ -51,10 +51,45 @@ console.log(popManipulation);
 console.log(arrayPush)
 
 //add first element in array using .unshift()
-console.log("remove first elemnet of an array using .shift()");
+console.log("add first element in array using .unshift()");
 var unshiftManipulation = [["VaibhaV", 32], ["Chandu", 31], ["Prasad", 30]];
 console.log(unshiftManipulation);
 unshiftManipulation[1].unshift("EcoTech", ".net");
 console.log(unshiftManipulation);
 unshiftManipulation.unshift(["Company", "Technology", "name", "Age"]);
 console.log(unshiftManipulation);
+
+
+// use of delete on array
+let fruits = ['Lemon', 'Banana', 'Cherry']
+delete fruits[1];
+console.log(fruits);
+
+fruits[1] = 'Orange'
+console.log(fruits);
+
+// Remove elements from x index total n elements
+let x =1;
+let n = 2
+fruits.splice(x, n);
+console.log(fruits);
+
+// Add x elements, remove n elemets 
+x = 2, n = 0
+fruits.splice(x, n, 'Orange', 'Cherry');
+console.log(fruits);
+
+x = 0, n = 2
+let citrusFruits = fruits.splice(x, n);
+console.log(citrusFruits);
+
+// Concat array
+let evenNumbers = [2, 4, 6]
+let oddNumbers = [1, 3, 5]
+let primeNumbers = [2, 3, 5]
+
+let numbers = evenNumbers.concat(oddNumbers)
+console.log(numbers);
+
+numbers = evenNumbers.concat(oddNumbers, primeNumbers)
+console.log(numbers);
