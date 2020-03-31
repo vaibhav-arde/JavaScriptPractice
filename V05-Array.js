@@ -84,6 +84,7 @@ let citrusFruits = fruits.splice(x, n);
 console.log(citrusFruits);
 
 // Concat array
+
 let evenNumbers = [2, 4, 6]
 let oddNumbers = [1, 3, 5]
 let primeNumbers = [2, 3, 5]
